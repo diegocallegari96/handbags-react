@@ -6,7 +6,6 @@ function Product(props) {
             <img src={props.productImage}/>
             <p>{props.nameBag}</p>
             <h4>€{props.priceBag},-</h4>
-            <h4>hoi</h4>
         </article>
     );
 }
