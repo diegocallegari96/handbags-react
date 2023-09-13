@@ -2,6 +2,10 @@ import React from "react";
 import './App.css'
 import Button from "./components/button.jsx";
 import Product from "./components/ProductCard.jsx";
+import Tile from "./components/Tile.jsx";
+
+
+
 
 function App() {
   return (
@@ -39,6 +43,24 @@ function App() {
               />
 
           </main>
+          <footer>
+              <Tile
+                  footerTitle="THE BRAND"
+                  footerParagraph1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, enim esse fuga illum iste minima modi molestias necessitatibus nemo numquam praesentium, qui quod sapiente tempora tempore temporibus veniam vitae."
+                  footerParagraph2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, enim esse fuga illum iste minima modi molestias necessitatibus nemo numquam praesentium, qui quod sapiente tempora tempore temporibus veniam vitae."
+              />
+              <Tile
+                  footerImage={"src/assets/brand.png"}
+              />
+              <Tile
+                  footerImage={"src/assets/our_story.png"}
+              />
+              <Tile
+                  footerTitle="OUR STORY"
+                  footerParagraph1="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, enim esse fuga illum iste minima modi molestias necessitatibus nemo numquam praesentium, qui quod sapiente tempora tempore temporibus veniam vitae."
+                  footerParagraph2="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda, enim esse fuga illum iste minima modi molestias necessitatibus nemo numquam praesentium, qui quod sapiente tempora tempore temporibus veniam vitae."
+              />
+          </footer>
       </>
   );
 }
